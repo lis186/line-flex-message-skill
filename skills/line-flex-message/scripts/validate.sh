@@ -18,6 +18,9 @@ set -euo pipefail
 { set +x; } 2>/dev/null
 in="${1:?usage: validate.sh <file.json|file.jsonl> [out.json]}"
 out="${2:-}"
+# Never leave a previous run's verdict behind: every early exit below (skipped, bad base, not JSON …) writes
+# nothing, so a stale file would look like this run's result. Only regular files (not /dev/null).
+if [[ -n $out && -f $out ]]; then rm -f "$out"; fi
 base="${LINE_VALIDATE_BASE:-https://api.line.me}"
 # The token goes wherever base points, so only LINE itself or a loopback test server is allowed.
 if [[ $base != https://api.line.me && ! $base =~ ^http://127\.0\.0\.1:[0-9]+$ ]]; then
@@ -44,7 +47,11 @@ if [[ -z $token ]]; then
 fi
 
 # Fail before calling LINE if the out file cannot be written (exit 1 must only mean "LINE rejected").
-if [[ -n $out ]]; then : 2>/dev/null > "$out" || { echo "valid=error reason=cannot write $out"; exit 2; }; fi
+if [[ -n $out ]]; then
+  : 2>/dev/null > "$out" || { echo "valid=error reason=cannot write $out"; exit 2; }
+  # That probe left an empty file; drop it so an exit before the final write leaves nothing behind.
+  if [[ -f $out ]]; then rm -f "$out"; fi
+fi
 tmp=$(mktemp -d); trap 'rm -rf "$tmp"' EXIT
 jq -c '.' "$in" > "$tmp/records" 2>/dev/null || { echo "valid=error reason=$in is not JSON"; exit 2; }
 n=$(wc -l < "$tmp/records" | tr -d ' ')

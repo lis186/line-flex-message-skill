@@ -3,7 +3,7 @@ import { test, afterEach } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFile } from 'node:child_process';
 import { createServer } from 'node:http';
-import { mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
@@ -22,7 +22,7 @@ function workdir() {
 }
 
 // Each answer: { status, body } sent as JSON, or { status, raw } sent verbatim; truncate announces a longer
-// content-length, sends what it has, then drops the connection.
+// content-length, sends what it has, then drops the connection. `answers` may also be a function of the request body.
 async function fakeLine(answers) {
   const seen = [];
   const server = createServer((req, res) => {
@@ -30,7 +30,7 @@ async function fakeLine(answers) {
     req.on('data', c => { raw += c; });
     req.on('end', () => {
       seen.push({ url: req.url, headers: req.headers, body: JSON.parse(raw) });
-      const a = answers[Math.min(seen.length - 1, answers.length - 1)];
+      const a = typeof answers === 'function' ? answers(seen.at(-1).body) : answers[Math.min(seen.length - 1, answers.length - 1)];
       const text = a.raw ?? JSON.stringify(a.body);
       if (a.truncate) {
         res.writeHead(a.status, { 'content-type': 'application/json', 'content-length': String(text.length + 100) });
@@ -236,4 +236,97 @@ test('401 with a 128-character token hints that the stored token was truncated',
   const r = await run([writeInput(workdir(), [flex])], { LINE_VALIDATE_TOKEN: 'x'.repeat(128), LINE_VALIDATE_BASE: line.base });
   assert.equal(r.code, 2);
   assert.match(r.stdout, /^valid=error http=401 Authentication failed\.\n  hint: token is exactly 128 chars/);
+});
+
+// Several messages in one record: all of them go to LINE, unchanged and in order, and LINE's verdict on the whole
+// request comes back. lineRules plays LINE: 1–5 messages, and a message equal to `bad` is invalid.
+const text = t => ({ type: 'text', text: t });
+const bad = { type: 'flex', altText: 'x', contents: { type: 'bubble', body: 'not-a-box' } };
+const lineRules = body => {
+  const msgs = body.messages;
+  if (msgs.length < 1 || msgs.length > 5) {
+    return { status: 400, body: { message: 'The request body has 1 error(s)', details: [{ message: 'Size must be between 1 and 5', property: 'messages' }] } };
+  }
+  const i = msgs.findIndex(m => JSON.stringify(m) === JSON.stringify(bad));
+  if (i >= 0) return { status: 400, body: { message: `A message (messages[${i}]) in the request body is invalid`, details: [{ message: 'must be specified', property: '/body' }] } };
+  return { status: 200, body: {} };
+};
+
+test('a record with several messages sends all of them, unchanged and in order', async () => {
+  const messages = [text('one'), flex, text('three')];
+  const line = await fakeLine(lineRules);
+  const r = await run([writeInput(workdir(), [{ messages }])], env(line.base));
+  assert.equal(r.code, 0);
+  assert.deepEqual(line.seen[0].body, { messages });
+});
+
+for (const [where, messages] of [['last', [text('one'), text('two'), bad]], ['middle', [text('one'), bad, text('three')]]]) {
+  test(`an invalid ${where} message is a rejection, not a pass on the first one`, async () => {
+    const line = await fakeLine(lineRules);
+    const r = await run([writeInput(workdir(), [{ messages }])], env(line.base));
+    assert.equal(r.code, 1);
+    assert.match(r.stdout, /^valid=no http=400 A message \(messages\[[12]\]\) in the request body is invalid/);
+  });
+}
+
+// LINE decides the 1–5 limit; the script sends the count as is and relays the verdict.
+for (const [count, code, first] of [[0, 1, 'valid=no http=400 The request body has 1 error(s)'], [1, 0, 'valid=yes'],
+  [5, 0, 'valid=yes'], [6, 1, 'valid=no http=400 The request body has 1 error(s)']]) {
+  test(`${count} messages in one record: exit ${code} (${first})`, async () => {
+    const messages = Array.from({ length: count }, (_, i) => text(`message ${i + 1}`));
+    const line = await fakeLine(lineRules);
+    const r = await run([writeInput(workdir(), [{ messages }])], env(line.base));
+    assert.equal(r.code, code);
+    assert.equal(r.stdout.split('\n')[0], first);
+    assert.equal(line.seen[0].body.messages.length, count);
+    if (code === 1) assert.match(r.stdout, /  ✗ messages: Size must be between 1 and 5/);
+  });
+}
+
+test('wrapping keeps every bubble of a carousel and every field of a flex message', async () => {
+  const carousel = { type: 'carousel', contents: [bubble, { ...bubble, size: 'kilo' }, { ...bubble, size: 'micro' }] };
+  const message = { type: 'flex', altText: 'all three', contents: carousel, quickReply: { items: [] }, sender: { name: 'Bot' } };
+  const line = await fakeLine(lineRules);
+  const r = await run([writeInput(workdir(), [carousel, message])], env(line.base));
+  assert.equal(r.code, 0);
+  assert.deepEqual(line.seen[0].body, { messages: [{ type: 'flex', altText: 'flex', contents: carousel }] });
+  assert.deepEqual(line.seen[1].body, { messages: [message] });
+});
+
+// A rerun must never leave the previous run's verdict in the out file: every early exit writes nothing.
+for (const [name, override, first] of [
+  ['no token (skipped)', { LINE_VALIDATE_TOKEN: undefined }, 'valid=skipped'],
+  ['no token in strict mode', { LINE_VALIDATE_TOKEN: undefined, LINE_VALIDATE_REQUIRED: '1' }, 'valid=error reason=LINE_VALIDATE_TOKEN not set'],
+  ['a bad base URL', { LINE_VALIDATE_BASE: 'https://evil.example' }, 'valid=error reason=LINE_VALIDATE_BASE'],
+]) {
+  test(`after a passing run, a rerun with ${name} leaves no out file behind`, async () => {
+    const line = await fakeLine([{ status: 200, body: {} }]);
+    const dir = workdir();
+    const input = writeInput(dir, [flex]);
+    const out = join(dir, 'out.json');
+    assert.equal((await run([input, out], env(line.base))).code, 0);
+    assert.ok(existsSync(out));
+    const r = await run([input, out], { ...env(line.base), ...override });
+    assert.ok(r.stdout.startsWith(first), r.stdout);
+    assert.equal(existsSync(out), false);
+  });
+}
+
+test('after a passing run, a rerun on input that is not JSON leaves no out file behind', async () => {
+  const line = await fakeLine([{ status: 200, body: {} }]);
+  const dir = workdir();
+  const input = writeInput(dir, [flex]);
+  const out = join(dir, 'out.json');
+  await run([input, out], env(line.base));
+  writeFileSync(input, '{broken');
+  const r = await run([input, out], env(line.base));
+  assert.equal(r.stdout.trim(), `valid=error reason=${input} is not JSON`);
+  assert.equal(existsSync(out), false);
+});
+
+test('an out path that is not a regular file (/dev/null) is left alone and validation runs', async () => {
+  const line = await fakeLine([{ status: 200, body: {} }]);
+  const r = await run([writeInput(workdir(), [flex]), '/dev/null'], env(line.base));
+  assert.equal(r.code, 0);
+  assert.equal(r.stdout.trim(), 'valid=yes');
 });
