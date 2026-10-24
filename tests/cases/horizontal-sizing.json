@@ -1,0 +1,67 @@
+{
+ "type": "bubble",
+ "body": {
+  "type": "box",
+  "layout": "vertical",
+  "contents": [
+   {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+     {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [],
+      "width": "40px"
+     },
+     {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [],
+      "width": "40px",
+      "flex": 2
+     },
+     {
+      "type": "text",
+      "text": "x",
+      "flex": 0
+     },
+     {
+      "type": "filler"
+     }
+    ],
+    "spacing": "7px"
+   },
+   {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+     {
+      "type": "text",
+      "text": "a",
+      "margin": "3px"
+     },
+     {
+      "type": "text",
+      "text": "b",
+      "offsetTop": "2px"
+     },
+     {
+      "type": "text",
+      "text": "c"
+     }
+    ],
+    "spacing": "5px"
+   },
+   {
+    "type": "text",
+    "text": "line1\nline2",
+    "wrap": true
+   },
+   {
+    "type": "text",
+    "text": "<b>&amp;</b>"
+   }
+  ]
+ }
+}

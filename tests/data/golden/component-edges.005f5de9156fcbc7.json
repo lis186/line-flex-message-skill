@@ -1,0 +1,88 @@
+{
+  "input": {
+    "type": "bubble",
+    "hero": {
+      "type": "video",
+      "url": "https://example.com/v.mp4",
+      "previewUrl": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+      "aspectRatio": "16:9",
+      "altContent": {
+        "type": "image",
+        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+        "size": "full",
+        "aspectRatio": "16:9"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "L",
+            "uri": "https://example.com"
+          },
+          "style": "primary",
+          "height": "sm",
+          "gravity": "center"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "A long label to overflow the button now",
+            "uri": "https://example.com"
+          },
+          "style": "link"
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "text",
+              "text": "x"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+              "margin": "7px",
+              "offsetBottom": "2px",
+              "offsetStart": "3px",
+              "offsetEnd": "md",
+              "size": "12.5px"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+          "size": "full",
+          "align": "start",
+          "aspectRatio": "1:3"
+        },
+        {
+          "type": "image",
+          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+          "size": "sm",
+          "aspectRatio": "3:1",
+          "aspectMode": "cover",
+          "align": "end"
+        },
+        {
+          "type": "text",
+          "text": "dec",
+          "size": "12.5px",
+          "margin": "2.5px",
+          "offsetBottom": "10%",
+          "offsetEnd": "5%"
+        }
+      ]
+    }
+  },
+  "status": 200,
+  "html": "<!doctype html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1\"><meta name=\"format-detection\" content=\"telephone=no\"><link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.line-scdn.net/line_flexible_msg/188b38e2f32/css/sp/main.css?29880615\"><style type=\"text/css\">.LyGi { width: 100%; max-width: 500px; min-width: 0;} .LyMe { width: 100%; max-width: 300px; min-width: 0;} .LyKi { width: 100%; max-width: 260px; min-width: 0;} .LyHe { width: 100%; max-width: 241px; min-width: 0;} .LyDe { width: 100%; max-width: 220px; min-width: 0;} .LyMi { width: 100%; max-width: 160px; min-width: 0;} .LyNa { width: 100%; max-width: 120px; min-width: 0;} </style></head><body style=\"margin: 0;\"><div class=\"LyMe\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Hero\"><div class=\"MdImg ExFull ExFit\"><div><a style=\"padding-bottom:56.25%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png');\"></span></a></div></div></div><div class=\"t1Body\"><div class=\"MdBx vr\"><div class=\"ExBtn1 grvC ExSm MdBtn\"><a><div>L</div></a></div><div class=\"ExBtnL MdBtn\"><a><div>A long label to overflow the button now</div></a></div><div class=\"MdBx hr bl\"><div class=\"MdTxt\"><p>x</p></div><div class=\"ExRMd MdIco fl0\" style=\"font-size:12.5px; bottom:2px; left:3px; margin-left:7px;\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div></div><div class=\"MdImg ExFull algS ExFit\"><div><a style=\"padding-bottom:300%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div><div class=\"ExCover algE MdImg ExSm\"><div><a style=\"padding-bottom:33.333%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div><div class=\"MdTxt\" style=\"font-size:12.5px; bottom:10%; right:5%; margin-top:2.5px;\"><p>dec</p></div></div></div></div></div></body></html>",
+  "capturedAt": "2026-10-24T10:15:42.091Z"
+}

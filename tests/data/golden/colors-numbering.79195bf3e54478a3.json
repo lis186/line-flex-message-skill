@@ -1,0 +1,93 @@
+{
+  "input": {
+    "type": "bubble",
+    "styles": {
+      "header": {
+        "backgroundColor": "#111111"
+      },
+      "hero": {
+        "backgroundColor": "#121212"
+      },
+      "body": {
+        "backgroundColor": "#111111",
+        "separator": true,
+        "separatorColor": "#333333"
+      },
+      "footer": {
+        "separator": true
+      }
+    },
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "h",
+          "color": "#aa0000"
+        },
+        {
+          "type": "text",
+          "text": "h2",
+          "color": "#aa0000"
+        }
+      ]
+    },
+    "hero": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "hero",
+          "color": "#bb0000"
+        }
+      ],
+      "backgroundColor": "#00bb00"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "text",
+              "text": "n1",
+              "color": "#cc0000"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "n2",
+                  "color": "#dd0000"
+                }
+              ],
+              "borderColor": "#ee0000",
+              "borderWidth": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "f",
+          "color": "#aa0000"
+        }
+      ]
+    }
+  },
+  "status": 200,
+  "html": "<!doctype html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1\"><meta name=\"format-detection\" content=\"telephone=no\"><link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.line-scdn.net/line_flexible_msg/188b38e2f32/css/sp/main.css?29880600\"><style type=\"text/css\">.fxC6 { color: #cc0000 !important; } .fxC5 { color: #bb0000 !important; } .fxC8 { color: #dd0000 !important; } .fxC3 { color: #aa0000 !important; } .fxC0 { background-color: #111111 !important; } .fxC4 { background-color: #00bb00 !important; } .fxC1 { background-color: #121212 !important; } .fxC2 { border-color: #333333 !important; } .fxC7 { border-color: #ee0000 !important; } .LyGi { width: 100%; max-width: 500px; min-width: 0;} .LyMe { width: 100%; max-width: 300px; min-width: 0;} .LyKi { width: 100%; max-width: 260px; min-width: 0;} .LyHe { width: 100%; max-width: 241px; min-width: 0;} .LyDe { width: 100%; max-width: 220px; min-width: 0;} .LyMi { width: 100%; max-width: 160px; min-width: 0;} .LyNa { width: 100%; max-width: 120px; min-width: 0;} </style></head><body style=\"margin: 0;\"><div class=\"LyMe\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Header fxC0\"><div class=\"MdBx vr\"><div class=\"MdTxt fxC3\"><p>h</p></div><div class=\"MdTxt fxC3\"><p>h2</p></div></div></div><div class=\"fxC1 t1Hero\"><div class=\"fxC4 MdBx vr\"><div class=\"MdTxt fxC5\"><p>hero</p></div></div></div><div class=\"fxC2 MdSep\"></div><div class=\"ExHasFooter t1Body fxC0\"><div class=\"MdBx vr\"><div class=\"MdBx hr\"><div class=\"MdTxt fxC6\"><p>n1</p></div><div class=\"ExBd fxC7 MdBx vr ExBdrWdtNml\"><div class=\"MdTxt fxC8\"><p>n2</p></div></div></div></div></div><div class=\"MdSep\"></div><div class=\"t1Footer\"><div class=\"MdBx vr\"><div class=\"MdTxt fxC3\"><p>f</p></div></div></div></div></div></body></html>",
+  "capturedAt": "2026-10-24T10:00:25.102Z"
+}

@@ -1,0 +1,59 @@
+{
+ "type": "carousel",
+ "contents": [
+  {
+   "type": "bubble",
+   "size": "micro",
+   "styles": {
+    "header": {
+     "separator": true,
+     "separatorColor": "#444444"
+    }
+   },
+   "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+     {
+      "type": "text",
+      "text": "h",
+      "color": "#010101"
+     }
+    ]
+   },
+   "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+     {
+      "type": "text",
+      "text": "b",
+      "color": "#020202"
+     }
+    ]
+   }
+  },
+  {
+   "type": "bubble",
+   "size": "micro",
+   "hero": {
+    "type": "image",
+    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+    "size": "full",
+    "aspectRatio": "2:1",
+    "aspectMode": "cover"
+   },
+   "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+     {
+      "type": "text",
+      "text": "b",
+      "color": "#030303"
+     }
+    ]
+   }
+  }
+ ]
+}

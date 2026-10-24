@@ -1,0 +1,94 @@
+{
+  "type": "flex",
+  "altText": "晨光雜貨 收據：合計 NT$307",
+  "contents": {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        { "type": "text", "text": "收據 RECEIPT", "weight": "bold", "color": "#1DB446", "size": "sm" },
+        { "type": "text", "text": "晨光雜貨", "weight": "bold", "size": "xxl", "margin": "md" },
+        { "type": "text", "text": "台北市大安區復興南路一段 390 號 1 樓", "size": "xs", "color": "#aaaaaa", "wrap": true },
+        { "type": "separator", "margin": "xxl", "color": "#eaeaea" },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                { "type": "text", "text": "冷萃咖啡", "size": "sm", "color": "#555555", "flex": 0 },
+                { "type": "text", "text": "NT$85", "size": "sm", "color": "#111111", "align": "end" }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                { "type": "text", "text": "全麥吐司", "size": "sm", "color": "#555555", "flex": 0 },
+                { "type": "text", "text": "NT$62", "size": "sm", "color": "#111111", "align": "end" }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                { "type": "text", "text": "鮮乳 936ml", "size": "sm", "color": "#555555", "flex": 0 },
+                { "type": "text", "text": "NT$160", "size": "sm", "color": "#111111", "align": "end" }
+              ]
+            },
+            { "type": "separator", "margin": "xxl", "color": "#eaeaea" },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xxl",
+              "contents": [
+                { "type": "text", "text": "品項", "size": "sm", "color": "#555555", "flex": 0 },
+                { "type": "text", "text": "3", "size": "sm", "color": "#111111", "align": "end" }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                { "type": "text", "text": "合計", "size": "sm", "color": "#555555", "flex": 0 },
+                { "type": "text", "text": "NT$307", "size": "sm", "color": "#111111", "align": "end" }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                { "type": "text", "text": "現金", "size": "sm", "color": "#555555", "flex": 0 },
+                { "type": "text", "text": "NT$500", "size": "sm", "color": "#111111", "align": "end" }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                { "type": "text", "text": "找零", "size": "sm", "color": "#555555", "flex": 0 },
+                { "type": "text", "text": "NT$193", "size": "sm", "color": "#111111", "align": "end" }
+              ]
+            },
+            { "type": "separator", "margin": "xxl", "color": "#eaeaea" },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "md",
+              "contents": [
+                { "type": "text", "text": "交易序號", "size": "xs", "color": "#aaaaaa", "flex": 0 },
+                { "type": "text", "text": "#20261024-0815", "color": "#aaaaaa", "size": "xs", "align": "end" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "styles": { "footer": { "separator": true } }
+  }
+}

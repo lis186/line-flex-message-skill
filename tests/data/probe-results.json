@@ -1,0 +1,2511 @@
+[
+  {
+    "comp": "text",
+    "p": "margin",
+    "v": "none",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExMgnTNone\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "margin",
+    "v": "xs",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExMgnTXs\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "margin",
+    "v": "sm",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExMgnTSm\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "margin",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExMgnTMd\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "margin",
+    "v": "lg",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExMgnTLg\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "margin",
+    "v": "xl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExMgnTXl\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "margin",
+    "v": "xxl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExMgnTXXl\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "margin",
+    "v": "13px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\" style=\"margin-top:13px;\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "flex",
+    "v": 0,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt fl0\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "flex",
+    "v": 1,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt fl1\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "flex",
+    "v": 2,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt fl2\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "flex",
+    "v": 3,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt fl3\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "flex",
+    "v": 4,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\" style=\"-webkit-box-flex:4; flex-grow:4;\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "flex",
+    "v": 7,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\" style=\"-webkit-box-flex:7; flex-grow:7;\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "position",
+    "v": "relative",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "position",
+    "v": "absolute",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExAbs\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "offsetTop",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExTMd\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "offsetTop",
+    "v": "5px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\" style=\"top:5px;\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "offsetTop",
+    "v": "10%",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\" style=\"top:10%;\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "offsetBottom",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExBMd\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "offsetBottom",
+    "v": "5px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\" style=\"bottom:5px;\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "offsetStart",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExLMd\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "offsetStart",
+    "v": "5px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\" style=\"left:5px;\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "offsetStart",
+    "v": "10%",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\" style=\"left:10%;\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "offsetEnd",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExRMd\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "offsetEnd",
+    "v": "5px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\" style=\"right:5px;\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "gravity",
+    "v": "top",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "gravity",
+    "v": "center",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt grvC\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "gravity",
+    "v": "bottom",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt grvB\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "size",
+    "v": "xxs",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExXXs\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "size",
+    "v": "xs",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExXs\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "size",
+    "v": "sm",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExSm\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "size",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExMd\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "size",
+    "v": "lg",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExLg\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "size",
+    "v": "xl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExXl\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "size",
+    "v": "xxl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExXXl\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "size",
+    "v": "3xl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt Ex3Xl\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "size",
+    "v": "4xl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt Ex4Xl\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "size",
+    "v": "5xl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt Ex5Xl\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "size",
+    "v": "18px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\" style=\"font-size:18px;\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "align",
+    "v": "start",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "align",
+    "v": "center",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExAlgC\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "align",
+    "v": "end",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExAlgE\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "weight",
+    "v": "regular",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExWR\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "weight",
+    "v": "bold",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExWB\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "color",
+    "v": "#123456",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt fxC0\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "wrap",
+    "v": true,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExWrap\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "wrap",
+    "v": false,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "maxLines",
+    "v": 0,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "maxLines",
+    "v": 1,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "maxLines",
+    "v": 3,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "lineSpacing",
+    "v": "6px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "style",
+    "v": "normal",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExFntStyNml\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "style",
+    "v": "italic",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExFntStyIt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "decoration",
+    "v": "none",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt ExTxtDecNone\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "decoration",
+    "v": "underline",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExTxtDecUl MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "decoration",
+    "v": "line-through",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExTxtDecLt MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "adjustMode",
+    "v": "shrink-to-fit",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "text",
+    "p": "scaling",
+    "v": true,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\"><p>X</p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "margin",
+    "v": "none",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExMgnTNone\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "margin",
+    "v": "xs",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExMgnTXs\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "margin",
+    "v": "sm",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExMgnTSm\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "margin",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx ExMgnTMd vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "margin",
+    "v": "lg",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExMgnTLg\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "margin",
+    "v": "xl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExMgnTXl MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "margin",
+    "v": "xxl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExMgnTXXl\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "margin",
+    "v": "13px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"margin-top:13px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "flex",
+    "v": 0,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx fl0 vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "flex",
+    "v": 1,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx fl1 vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "flex",
+    "v": 2,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr fl2\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "flex",
+    "v": 3,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr fl3\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "flex",
+    "v": 4,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"-webkit-box-flex:4; flex-grow:4;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "flex",
+    "v": 7,
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"-webkit-box-flex:7; flex-grow:7;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "position",
+    "v": "relative",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "position",
+    "v": "absolute",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExAbs\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "offsetTop",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExTMd\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "offsetTop",
+    "v": "5px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"top:5px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "offsetTop",
+    "v": "10%",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"top:10%;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "offsetBottom",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExBMd MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "offsetBottom",
+    "v": "5px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"bottom:5px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "offsetStart",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExLMd MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "offsetStart",
+    "v": "5px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"left:5px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "offsetStart",
+    "v": "10%",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"left:10%;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "offsetEnd",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExRMd MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "offsetEnd",
+    "v": "5px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"right:5px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "gravity",
+    "v": "top",
+    "status": 400,
+    "target": null,
+    "error": "{\"message\":\"json parsing error\",\"details\":[{\"property\":\"/body/contents/1/gravity\",\"message\":\"unknown field\"}]}"
+  },
+  {
+    "comp": "box",
+    "p": "gravity",
+    "v": "center",
+    "status": 400,
+    "target": null,
+    "error": "{\"message\":\"json parsing error\",\"details\":[{\"property\":\"/body/contents/1/gravity\",\"message\":\"unknown field\"}]}"
+  },
+  {
+    "comp": "box",
+    "p": "gravity",
+    "v": "bottom",
+    "status": 400,
+    "target": null,
+    "error": "{\"message\":\"json parsing error\",\"details\":[{\"property\":\"/body/contents/1/gravity\",\"message\":\"unknown field\"}]}"
+  },
+  {
+    "comp": "box",
+    "p": "layout",
+    "v": "vertical",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "layout",
+    "v": "horizontal",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx hr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "layout",
+    "v": "baseline",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx hr bl\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "spacing",
+    "v": "none",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "spacing",
+    "v": "xs",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx spcXs vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "spacing",
+    "v": "sm",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"spcSm MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "spacing",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"spcMd MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "spacing",
+    "v": "lg",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx spcLg vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "spacing",
+    "v": "xl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"spcXl MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "spacing",
+    "v": "xxl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"spcXXl MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "spacing",
+    "v": "7px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingAll",
+    "v": "none",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExPadANone\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingAll",
+    "v": "xs",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx ExPadAXs vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingAll",
+    "v": "sm",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExPadASm\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingAll",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExPadAMd\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingAll",
+    "v": "lg",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx ExPadALg vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingAll",
+    "v": "xl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExPadAXl MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingAll",
+    "v": "xxl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExPadAXXl\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingAll",
+    "v": "7px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"padding:7px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingAll",
+    "v": "10%",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"padding:10%;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingTop",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExPadTMd\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingTop",
+    "v": "7px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"padding-top:7px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingBottom",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExPadBMd\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingBottom",
+    "v": "7px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"padding-bottom:7px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingStart",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExPadLMd MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingStart",
+    "v": "7px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"padding-left:7px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingEnd",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExPadRMd\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "paddingEnd",
+    "v": "7px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"padding-right:7px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "backgroundColor",
+    "v": "#123456",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr fxC0\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "borderColor",
+    "v": "#654321",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExBd MdBx vr fxC0\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "borderWidth",
+    "v": "none",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExBdrWdtNone MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "borderWidth",
+    "v": "light",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExBdrWdtLgh\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "borderWidth",
+    "v": "normal",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExBdrWdtNml\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "borderWidth",
+    "v": "medium",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExBdrWdtMdm MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "borderWidth",
+    "v": "semi-bold",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExBdrWdtSbd MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "borderWidth",
+    "v": "bold",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr ExBdrWdtBld\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "borderWidth",
+    "v": "3px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"border-width:3px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "cornerRadius",
+    "v": "none",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExBdrRadNone MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "cornerRadius",
+    "v": "xs",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExBdrRadXs MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "cornerRadius",
+    "v": "sm",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExBdrRadSm MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "cornerRadius",
+    "v": "md",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx ExBdrRadMd vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "cornerRadius",
+    "v": "lg",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExBdrRadLg MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "cornerRadius",
+    "v": "xl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx ExBdrRadXl vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "cornerRadius",
+    "v": "xxl",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"ExBdrRadXXl MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "cornerRadius",
+    "v": "7px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"border-radius:7px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "width",
+    "v": "40px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"width:40px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "width",
+    "v": "50%",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"width:50%;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "height",
+    "v": "40px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx fl0 vr\" style=\"height:40px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "height",
+    "v": "50%",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx fl0 vr\" style=\"height:50%;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "maxWidth",
+    "v": "40px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"max-width:40px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "maxWidth",
+    "v": "50%",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"max-width:50%;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "maxHeight",
+    "v": "40px",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"max-height:40px;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "maxHeight",
+    "v": "50%",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"max-height:50%;\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "justifyContent",
+    "v": "flex-start",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"itms-jfcS MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "justifyContent",
+    "v": "center",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"itms-jfcC MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "justifyContent",
+    "v": "flex-end",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"itms-jfcE MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "justifyContent",
+    "v": "space-between",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"itms-jfcSB MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "justifyContent",
+    "v": "space-around",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"itms-jfcSA MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "justifyContent",
+    "v": "space-evenly",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"itms-jfcSE MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "alignItems",
+    "v": "flex-start",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"itms-algS MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "alignItems",
+    "v": "center",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"itms-algC MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "alignItems",
+    "v": "flex-end",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"itms-algE MdBx vr\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "background",
+    "v": {
+      "type": "linearGradient",
+      "angle": "45deg",
+      "startColor": "#ff0000",
+      "endColor": "#0000ff"
+    },
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"background:linear-gradient(45deg, #ff0000 0%, #0000ff 100%);\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "box",
+    "p": "background",
+    "v": {
+      "type": "linearGradient",
+      "angle": "0deg",
+      "startColor": "#ff0000",
+      "endColor": "#0000ff",
+      "centerColor": "#00ff00",
+      "centerPosition": "30%"
+    },
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdBx vr\" style=\"background:linear-gradient(0deg, #ff0000 0%, #00ff00 30%, #0000ff 100%);\"><div class=\"MdTxt\"><p>c</p></div></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "image",
+    "p": "margin",
+    "v": "none",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit ExMgnTNone\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "margin",
+    "v": "xs",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit ExMgnTXs\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "margin",
+    "v": "sm",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit ExMgnTSm\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "margin",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMgnTMd ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "margin",
+    "v": "lg",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit ExMgnTLg\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "margin",
+    "v": "xl",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMgnTXl ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "margin",
+    "v": "xxl",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit ExMgnTXXl\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "margin",
+    "v": "13px",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\" style=\"margin-top:13px;\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "flex",
+    "v": 0,
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd fl0 ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "flex",
+    "v": 1,
+    "status": 200,
+    "target": "<div class=\"MdImg fl1 ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "flex",
+    "v": 2,
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit fl2\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "flex",
+    "v": 3,
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd fl3 ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "flex",
+    "v": 4,
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\" style=\"-webkit-box-flex:4; flex-grow:4;\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "flex",
+    "v": 7,
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\" style=\"-webkit-box-flex:7; flex-grow:7;\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "position",
+    "v": "relative",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "position",
+    "v": "absolute",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExAbs ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "offsetTop",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExTMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "offsetTop",
+    "v": "5px",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\" style=\"top:5px;\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "offsetTop",
+    "v": "10%",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\" style=\"top:10%;\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "offsetBottom",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"ExBMd MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "offsetBottom",
+    "v": "5px",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\" style=\"bottom:5px;\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "offsetStart",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"ExLMd MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "offsetStart",
+    "v": "5px",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\" style=\"left:5px;\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "offsetStart",
+    "v": "10%",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\" style=\"left:10%;\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "offsetEnd",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"ExRMd MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "offsetEnd",
+    "v": "5px",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\" style=\"right:5px;\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "gravity",
+    "v": "top",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "gravity",
+    "v": "center",
+    "status": 200,
+    "target": "<div class=\"MdImg grvC ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "gravity",
+    "v": "bottom",
+    "status": 200,
+    "target": "<div class=\"MdImg grvB ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "xxs",
+    "status": 200,
+    "target": "<div class=\"ExXXs MdImg ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "xs",
+    "status": 200,
+    "target": "<div class=\"MdImg ExFit ExXs\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "sm",
+    "status": 200,
+    "target": "<div class=\"MdImg ExSm ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "lg",
+    "status": 200,
+    "target": "<div class=\"MdImg ExFit ExLg\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "xl",
+    "status": 200,
+    "target": "<div class=\"ExXl MdImg ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "xxl",
+    "status": 200,
+    "target": "<div class=\"MdImg ExXXl ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "3xl",
+    "status": 200,
+    "target": "<div class=\"MdImg Ex3Xl ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "4xl",
+    "status": 200,
+    "target": "<div class=\"Ex4Xl MdImg ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "5xl",
+    "status": 200,
+    "target": "<div class=\"Ex5Xl MdImg ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "full",
+    "status": 200,
+    "target": "<div class=\"MdImg ExFull ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "77px",
+    "status": 200,
+    "target": "<div class=\"MdImg ExFit\"><div style=\"width:77px;\"><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "size",
+    "v": "30%",
+    "status": 200,
+    "target": "<div class=\"MdImg ExFit\"><div style=\"width:30%;\"><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "aspectRatio",
+    "v": "1:1",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "aspectRatio",
+    "v": "20:13",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:65%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "aspectRatio",
+    "v": "16:9",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:56.25%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "aspectRatio",
+    "v": "7:5",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:71.428%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "aspectRatio",
+    "v": "1:1.5",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:150%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "aspectMode",
+    "v": "cover",
+    "status": 200,
+    "target": "<div class=\"ExCover MdImg ExMd\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "aspectMode",
+    "v": "fit",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "align",
+    "v": "start",
+    "status": 200,
+    "target": "<div class=\"MdImg algS ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "align",
+    "v": "center",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "align",
+    "v": "end",
+    "status": 200,
+    "target": "<div class=\"algE MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "backgroundColor",
+    "v": "#123456",
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span class=\"fxC0\" style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "image",
+    "p": "animated",
+    "v": true,
+    "status": 200,
+    "target": "<div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div>"
+  },
+  {
+    "comp": "button",
+    "p": "margin",
+    "v": "none",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn ExMgnTNone\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "margin",
+    "v": "xs",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn ExMgnTXs\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "margin",
+    "v": "sm",
+    "status": 200,
+    "target": "<div class=\"ExBtnL ExMgnTSm MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "margin",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"ExBtnL ExMgnTMd MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "margin",
+    "v": "lg",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn ExMgnTLg\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "margin",
+    "v": "xl",
+    "status": 200,
+    "target": "<div class=\"ExMgnTXl ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "margin",
+    "v": "xxl",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn ExMgnTXXl\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "margin",
+    "v": "13px",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\" style=\"margin-top:13px;\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "flex",
+    "v": 0,
+    "status": 200,
+    "target": "<div class=\"ExBtnL fl0 MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "flex",
+    "v": 1,
+    "status": 200,
+    "target": "<div class=\"ExBtnL fl1 MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "flex",
+    "v": 2,
+    "status": 200,
+    "target": "<div class=\"ExBtnL fl2 MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "flex",
+    "v": 3,
+    "status": 200,
+    "target": "<div class=\"ExBtnL fl3 MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "flex",
+    "v": 4,
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\" style=\"-webkit-box-flex:4; flex-grow:4;\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "flex",
+    "v": 7,
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\" style=\"-webkit-box-flex:7; flex-grow:7;\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "position",
+    "v": "relative",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "position",
+    "v": "absolute",
+    "status": 200,
+    "target": "<div class=\"ExBtnL ExAbs MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "offsetTop",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"ExBtnL ExTMd MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "offsetTop",
+    "v": "5px",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\" style=\"top:5px;\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "offsetTop",
+    "v": "10%",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\" style=\"top:10%;\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "offsetBottom",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"ExBMd ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "offsetBottom",
+    "v": "5px",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\" style=\"bottom:5px;\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "offsetStart",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"ExLMd ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "offsetStart",
+    "v": "5px",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\" style=\"left:5px;\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "offsetStart",
+    "v": "10%",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\" style=\"left:10%;\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "offsetEnd",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"ExRMd ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "offsetEnd",
+    "v": "5px",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\" style=\"right:5px;\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "gravity",
+    "v": "top",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "gravity",
+    "v": "center",
+    "status": 200,
+    "target": "<div class=\"grvC ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "gravity",
+    "v": "bottom",
+    "status": 200,
+    "target": "<div class=\"grvB ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "style",
+    "v": "primary",
+    "status": 200,
+    "target": "<div class=\"ExBtn1 MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "style",
+    "v": "secondary",
+    "status": 200,
+    "target": "<div class=\"ExBtn2 MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "style",
+    "v": "link",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "height",
+    "v": "sm",
+    "status": 200,
+    "target": "<div class=\"ExBtnL ExSm MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "height",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "color",
+    "v": "#123456",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\"><a><div class=\"fxC0\">L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "adjustMode",
+    "v": "shrink-to-fit",
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "button",
+    "p": "scaling",
+    "v": true,
+    "status": 200,
+    "target": "<div class=\"ExBtnL MdBtn\"><a><div>L</div></a></div>"
+  },
+  {
+    "comp": "separator",
+    "p": "margin",
+    "v": "none",
+    "status": 200,
+    "target": "<div class=\"fl0 MdSep ExMgnTNone\"></div>"
+  },
+  {
+    "comp": "separator",
+    "p": "margin",
+    "v": "xs",
+    "status": 200,
+    "target": "<div class=\"fl0 MdSep ExMgnTXs\"></div>"
+  },
+  {
+    "comp": "separator",
+    "p": "margin",
+    "v": "sm",
+    "status": 200,
+    "target": "<div class=\"fl0 MdSep ExMgnTSm\"></div>"
+  },
+  {
+    "comp": "separator",
+    "p": "margin",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"ExMgnTMd fl0 MdSep\"></div>"
+  },
+  {
+    "comp": "separator",
+    "p": "margin",
+    "v": "lg",
+    "status": 200,
+    "target": "<div class=\"fl0 MdSep ExMgnTLg\"></div>"
+  },
+  {
+    "comp": "separator",
+    "p": "margin",
+    "v": "xl",
+    "status": 200,
+    "target": "<div class=\"ExMgnTXl fl0 MdSep\"></div>"
+  },
+  {
+    "comp": "separator",
+    "p": "margin",
+    "v": "xxl",
+    "status": 200,
+    "target": "<div class=\"fl0 MdSep ExMgnTXXl\"></div>"
+  },
+  {
+    "comp": "separator",
+    "p": "margin",
+    "v": "13px",
+    "status": 200,
+    "target": "<div class=\"fl0 MdSep\" style=\"margin-top:13px;\"></div>"
+  },
+  {
+    "comp": "separator",
+    "p": "color",
+    "v": "#123456",
+    "status": 200,
+    "target": "<div class=\"fl0 MdSep fxC0\"></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "margin",
+    "v": "none",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMgnLNone ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "margin",
+    "v": "xs",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMgnLXs ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "margin",
+    "v": "sm",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMgnLSm ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "margin",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"ExMgnLMd MdIco ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "margin",
+    "v": "lg",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMgnLLg ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "margin",
+    "v": "xl",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMd fl0 ExMgnLXl\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "margin",
+    "v": "xxl",
+    "status": 200,
+    "target": "<div class=\"ExMgnLXXl MdIco ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "margin",
+    "v": "13px",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMd fl0\" style=\"margin-left:13px;\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "size",
+    "v": "xxs",
+    "status": 200,
+    "target": "<div class=\"ExXXs MdIco fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "size",
+    "v": "xs",
+    "status": 200,
+    "target": "<div class=\"MdIco fl0 ExXs\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "size",
+    "v": "sm",
+    "status": 200,
+    "target": "<div class=\"MdIco fl0 ExSm\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "size",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "size",
+    "v": "lg",
+    "status": 200,
+    "target": "<div class=\"MdIco fl0 ExLg\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "size",
+    "v": "xl",
+    "status": 200,
+    "target": "<div class=\"MdIco ExXl fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "size",
+    "v": "xxl",
+    "status": 200,
+    "target": "<div class=\"MdIco fl0 ExXXl\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "size",
+    "v": "3xl",
+    "status": 200,
+    "target": "<div class=\"MdIco Ex3Xl fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "size",
+    "v": "4xl",
+    "status": 200,
+    "target": "<div class=\"MdIco Ex4Xl fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "size",
+    "v": "5xl",
+    "status": 200,
+    "target": "<div class=\"MdIco Ex5Xl fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "size",
+    "v": "18px",
+    "status": 200,
+    "target": "<div class=\"MdIco fl0\" style=\"font-size:18px;\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "aspectRatio",
+    "v": "1:1",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "aspectRatio",
+    "v": "2:1",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:2em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "aspectRatio",
+    "v": "3:1",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:3em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "scaling",
+    "v": true,
+    "status": 200,
+    "target": "<div class=\"MdIco ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "position",
+    "v": "relative",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMd fl0\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "position",
+    "v": "absolute",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMd fl0 ExAbs\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "offsetTop",
+    "v": "md",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMd fl0 ExTMd\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "icon",
+    "p": "offsetTop",
+    "v": "5px",
+    "status": 200,
+    "target": "<div class=\"MdIco ExMd fl0\" style=\"top:5px;\"><div><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png'); width:1em;\"></span></div></div>"
+  },
+  {
+    "comp": "bubble",
+    "p": "size",
+    "v": "nano",
+    "status": 200,
+    "target": "<div class=\"LyNa\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Header\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>h</p></div></div></div><div class=\"ExHasFooter t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>b</p></div></div></div><div class=\"t1Footer\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>f</p></div></div></div></div></div>"
+  },
+  {
+    "comp": "bubble",
+    "p": "size",
+    "v": "micro",
+    "status": 200,
+    "target": "<div class=\"LyMi\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Header\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>h</p></div></div></div><div class=\"ExHasFooter t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>b</p></div></div></div><div class=\"t1Footer\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>f</p></div></div></div></div></div>"
+  },
+  {
+    "comp": "bubble",
+    "p": "size",
+    "v": "deca",
+    "status": 200,
+    "target": "<div class=\"LyDe\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Header\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>h</p></div></div></div><div class=\"ExHasFooter t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>b</p></div></div></div><div class=\"t1Footer\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>f</p></div></div></div></div></div>"
+  },
+  {
+    "comp": "bubble",
+    "p": "size",
+    "v": "hecto",
+    "status": 200,
+    "target": "<div class=\"LyHe\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Header\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>h</p></div></div></div><div class=\"ExHasFooter t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>b</p></div></div></div><div class=\"t1Footer\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>f</p></div></div></div></div></div>"
+  },
+  {
+    "comp": "bubble",
+    "p": "size",
+    "v": "kilo",
+    "status": 200,
+    "target": "<div class=\"LyKi\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Header\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>h</p></div></div></div><div class=\"ExHasFooter t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>b</p></div></div></div><div class=\"t1Footer\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>f</p></div></div></div></div></div>"
+  },
+  {
+    "comp": "bubble",
+    "p": "size",
+    "v": "mega",
+    "status": 200,
+    "target": "<div class=\"LyMe\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Header\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>h</p></div></div></div><div class=\"ExHasFooter t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>b</p></div></div></div><div class=\"t1Footer\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>f</p></div></div></div></div></div>"
+  },
+  {
+    "comp": "bubble",
+    "p": "size",
+    "v": "giga",
+    "status": 200,
+    "target": "<div class=\"LyGi\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Header\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>h</p></div></div></div><div class=\"ExHasFooter t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>b</p></div></div></div><div class=\"t1Footer\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>f</p></div></div></div></div></div>"
+  },
+  {
+    "comp": "bubble",
+    "p": "direction",
+    "v": "rtl",
+    "status": 200,
+    "target": "<div class=\"LyMe\"><div class=\"T1 fxRTL\" dir=\"rtl\"><div class=\"t1Body\"><div class=\"spcMd MdBx hr\"><div class=\"MdTxt\"><p>a</p></div><div class=\"MdTxt\"><p>b</p></div></div></div></div></div>"
+  },
+  {
+    "comp": "bubble",
+    "p": "styles",
+    "v": "all",
+    "status": 200,
+    "target": "<div class=\"LyMe\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Header fxC0\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>h</p></div></div></div><div class=\"fxC2 MdSep\"></div><div class=\"fxC1 ExHasFooter t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>b</p></div></div></div><div class=\"MdSep\"></div><div class=\"fxC3 t1Footer\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>f</p></div></div></div></div></div>"
+  },
+  {
+    "comp": "text",
+    "p": "contents(span)",
+    "v": "spans",
+    "status": 200,
+    "target": {
+      "el": "<div class=\"MdTxt\"><p><span class=\"MdSpn ExXl fxC0 ExWB\">a</span><span class=\"MdSpn ExTxtDecUl ExFntStyIt\" style=\"font-size:18px;\">b</span></p></div>",
+      "parent": "MdBx vr | "
+    }
+  },
+  {
+    "comp": "video",
+    "p": "hero",
+    "v": "video",
+    "status": 200,
+    "target": "<div class=\"LyMe\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Hero\"><div class=\"MdImg ExFull ExFit\"><div><a style=\"padding-bottom:65%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div></div><div class=\"t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>b</p></div></div></div></div></div>"
+  },
+  {
+    "comp": "carousel",
+    "p": "contents",
+    "v": "3 kilo",
+    "status": 200,
+    "target": "<div class=\"LySlider\"><div class=\"lyInner\"><div class=\"lyItem LyKi\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>c1</p></div></div></div></div></div><div class=\"lyItem LyKi\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>c2</p></div></div></div></div></div><div class=\"lyItem LyKi\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>c3</p></div></div></div></div></div></div></div>"
+  },
+  {
+    "comp": "filler",
+    "p": "flex",
+    "v": 2,
+    "status": 200,
+    "target": "<div class=\"mdBxFiller fl2\"></div>"
+  }
+]

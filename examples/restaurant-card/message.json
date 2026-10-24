@@ -1,0 +1,72 @@
+{
+  "type": "flex",
+  "altText": "巷口咖啡館：評分 4.0，營業 08:00–21:00",
+  "contents": {
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": { "type": "uri", "uri": "https://example.com/cafe" }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        { "type": "text", "text": "巷口咖啡館", "weight": "bold", "size": "xl" },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "margin": "md",
+          "contents": [
+            { "type": "icon", "size": "sm", "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png" },
+            { "type": "icon", "size": "sm", "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png" },
+            { "type": "icon", "size": "sm", "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png" },
+            { "type": "icon", "size": "sm", "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png" },
+            { "type": "icon", "size": "sm", "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png" },
+            { "type": "text", "text": "4.0", "size": "sm", "color": "#999999", "margin": "md", "flex": 0 }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                { "type": "text", "text": "地點", "color": "#aaaaaa", "size": "sm", "flex": 1 },
+                { "type": "text", "text": "台中市西區美村路一段 120 巷 8 號（近草悟道）", "wrap": true, "color": "#666666", "size": "sm", "flex": 5 }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                { "type": "text", "text": "時間", "color": "#aaaaaa", "size": "sm", "flex": 1 },
+                { "type": "text", "text": "08:00 - 21:00（週一公休）", "wrap": true, "color": "#666666", "size": "sm", "flex": 5 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "flex": 0,
+      "contents": [
+        { "type": "button", "style": "link", "height": "sm", "action": { "type": "uri", "label": "撥打電話", "uri": "tel:0422345678" } },
+        { "type": "button", "style": "link", "height": "sm", "action": { "type": "uri", "label": "查看網站", "uri": "https://example.com/cafe" } },
+        { "type": "box", "layout": "vertical", "contents": [], "margin": "sm" }
+      ]
+    }
+  }
+}

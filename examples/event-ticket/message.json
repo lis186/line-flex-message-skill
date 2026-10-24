@@ -1,0 +1,140 @@
+{
+  "type": "flex",
+  "altText": "入場券：秋日爵士音樂節 2026，11/15（日）B 區",
+  "contents": {
+    "type": "bubble",
+    "size": "mega",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "paddingAll": "14px",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "paddingAll": "14px",
+          "cornerRadius": "14px",
+          "borderWidth": "2px",
+          "borderColor": "#1F2937",
+          "backgroundColor": "#FFFFFF",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "justifyContent": "space-between",
+              "contents": [
+                { "type": "text", "text": "入場券 ENTRY PASS", "size": "xs", "weight": "bold", "color": "#334155", "flex": 0 },
+                { "type": "text", "text": "#JZ-0482", "size": "xs", "weight": "bold", "color": "#0F172A", "flex": 0 }
+              ]
+            },
+            { "type": "text", "text": "秋日爵士音樂節 2026", "size": "xl", "weight": "bold", "color": "#111111", "wrap": true },
+            { "type": "text", "text": "大稻埕碼頭 · 戶外草地舞台", "size": "xs", "color": "#64748B" },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "flex": 3,
+                      "paddingAll": "10px",
+                      "cornerRadius": "10px",
+                      "backgroundColor": "#F1F5F9",
+                      "contents": [
+                        { "type": "text", "text": "日期", "size": "xxs", "color": "#64748B" },
+                        { "type": "text", "text": "2026.11.15（日）", "size": "xs", "weight": "bold", "color": "#0F172A", "margin": "xs", "wrap": true }
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "flex": 2,
+                      "paddingAll": "10px",
+                      "cornerRadius": "10px",
+                      "backgroundColor": "#F1F5F9",
+                      "contents": [
+                        { "type": "text", "text": "入口", "size": "xxs", "color": "#64748B" },
+                        { "type": "text", "text": "5 號水門", "size": "xs", "weight": "bold", "color": "#0F172A", "margin": "xs", "wrap": true }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "paddingAll": "10px",
+                  "cornerRadius": "10px",
+                  "backgroundColor": "#F1F5F9",
+                  "contents": [
+                    { "type": "text", "text": "區域", "size": "xxs", "color": "#64748B" },
+                    { "type": "text", "text": "B 區自由席 / 草地野餐區", "size": "xs", "weight": "bold", "color": "#0F172A", "margin": "xs", "wrap": true }
+                  ]
+                }
+              ]
+            },
+            { "type": "separator", "color": "#94A3B8" },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "justifyContent": "space-between",
+              "contents": [
+                { "type": "text", "text": "報到時間", "size": "xxs", "color": "#64748B", "flex": 0, "gravity": "center" },
+                { "type": "text", "text": "15:30-16:00", "size": "sm", "weight": "bold", "color": "#111111", "flex": 0 }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "paddingAll": "12px",
+              "cornerRadius": "10px",
+              "backgroundColor": "#111111",
+              "contents": [
+                { "type": "text", "text": "入場時出示 QR Code", "size": "xxs", "weight": "bold", "align": "center", "color": "#E2E8F0" },
+                { "type": "text", "text": "JZ2026-B-0482", "size": "sm", "weight": "bold", "align": "center", "color": "#FFFFFF", "margin": "xs" }
+              ],
+              "action": { "type": "uri", "label": "顯示 QR Code", "uri": "https://example.com/ticket/JZ-0482" }
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "position": "absolute",
+              "offsetStart": "-12px",
+              "offsetTop": "204px",
+              "width": "24px",
+              "height": "24px",
+              "cornerRadius": "12px",
+              "backgroundColor": "#FDFBF6",
+              "borderWidth": "2px",
+              "borderColor": "#1F2937",
+              "contents": []
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "position": "absolute",
+              "offsetEnd": "-12px",
+              "offsetTop": "204px",
+              "width": "24px",
+              "height": "24px",
+              "cornerRadius": "12px",
+              "backgroundColor": "#FDFBF6",
+              "borderWidth": "2px",
+              "borderColor": "#1F2937",
+              "contents": []
+            }
+          ]
+        }
+      ]
+    },
+    "styles": {
+      "body": { "backgroundColor": "#FDFBF6" }
+    }
+  }
+}

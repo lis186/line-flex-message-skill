@@ -1,0 +1,11 @@
+{
+  "name": "line-flex-message-skill",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "render": "node skills/line-flex-message/scripts/render.mjs",
+    "check-css": "node tools/check-css.mjs",
+    "check-device": "node tools/check-device.mjs"
+  }
+}

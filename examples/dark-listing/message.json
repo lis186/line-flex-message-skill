@@ -1,0 +1,98 @@
+{
+  "type": "flex",
+  "altText": "新上架：青田街日式老宅 3 房，月租 NT$42,000",
+  "contents": {
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "paddingAll": "0px",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip4.jpg",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "150:196",
+              "gravity": "center",
+              "flex": 1
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "flex": 1,
+              "contents": [
+                {
+                  "type": "image",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip5.jpg",
+                  "size": "full",
+                  "aspectMode": "cover",
+                  "aspectRatio": "150:98",
+                  "gravity": "center"
+                },
+                {
+                  "type": "image",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip6.jpg",
+                  "size": "full",
+                  "aspectMode": "cover",
+                  "aspectRatio": "150:98",
+                  "gravity": "center"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "backgroundColor": "#EC3D44",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px",
+              "flex": 0,
+              "position": "absolute",
+              "offsetStart": "18px",
+              "offsetTop": "18px",
+              "cornerRadius": "100px",
+              "width": "56px",
+              "height": "25px",
+              "contents": [
+                { "type": "text", "text": "新上架", "size": "xs", "color": "#ffffff", "align": "center", "gravity": "center" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "paddingAll": "20px",
+      "backgroundColor": "#464F69",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            { "type": "text", "text": "青田街日式老宅", "size": "xl", "wrap": true, "color": "#ffffff", "weight": "bold" },
+            { "type": "text", "text": "3 房 2 廳，月租 NT$42,000", "color": "#ffffffcc", "size": "sm" }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "paddingAll": "13px",
+          "backgroundColor": "#ffffff1A",
+          "cornerRadius": "2px",
+          "margin": "xl",
+          "contents": [
+            { "type": "text", "text": "庭院、檜木地板、木作書房、步行 5 分鐘到捷運東門站", "size": "sm", "wrap": true, "color": "#ffffffde" }
+          ]
+        }
+      ]
+    }
+  }
+}

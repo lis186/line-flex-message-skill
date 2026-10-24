@@ -1,0 +1,64 @@
+{
+ "type": "bubble",
+ "body": {
+  "type": "box",
+  "layout": "vertical",
+  "contents": [
+   {
+    "type": "text",
+    "text": "a",
+    "color": "#AA0000"
+   },
+   {
+    "type": "text",
+    "text": "b",
+    "color": "#aa0000"
+   },
+   {
+    "type": "text",
+    "text": "c",
+    "color": "#11223380"
+   },
+   {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+     {
+      "type": "text",
+      "text": "d"
+     }
+    ],
+    "backgroundColor": "#00000080",
+    "borderColor": "#FF000040",
+    "borderWidth": "normal"
+   },
+   {
+    "type": "button",
+    "action": {
+     "type": "uri",
+     "label": "L",
+     "uri": "https://example.com"
+    },
+    "style": "primary",
+    "color": "#00FF0080"
+   },
+   {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+     {
+      "type": "text",
+      "text": "e"
+     }
+    ],
+    "background": {
+     "type": "linearGradient",
+     "angle": "90deg",
+     "startColor": "#ff0000",
+     "endColor": "#0000ff",
+     "centerColor": "#00ff00"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "type": "bubble",
+ "styles": {
+  "header": {
+   "backgroundColor": "#111111"
+  },
+  "hero": {
+   "backgroundColor": "#121212"
+  },
+  "body": {
+   "backgroundColor": "#111111",
+   "separator": true,
+   "separatorColor": "#333333"
+  },
+  "footer": {
+   "separator": true
+  }
+ },
+ "header": {
+  "type": "box",
+  "layout": "vertical",
+  "contents": [
+   {
+    "type": "text",
+    "text": "h",
+    "color": "#aa0000"
+   },
+   {
+    "type": "text",
+    "text": "h2",
+    "color": "#aa0000"
+   }
+  ]
+ },
+ "hero": {
+  "type": "box",
+  "layout": "vertical",
+  "contents": [
+   {
+    "type": "text",
+    "text": "hero",
+    "color": "#bb0000"
+   }
+  ],
+  "backgroundColor": "#00bb00"
+ },
+ "body": {
+  "type": "box",
+  "layout": "vertical",
+  "contents": [
+   {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+     {
+      "type": "text",
+      "text": "n1",
+      "color": "#cc0000"
+     },
+     {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+       {
+        "type": "text",
+        "text": "n2",
+        "color": "#dd0000"
+       }
+      ],
+      "borderColor": "#ee0000",
+      "borderWidth": "normal"
+     }
+    ]
+   }
+  ]
+ },
+ "footer": {
+  "type": "box",
+  "layout": "vertical",
+  "contents": [
+   {
+    "type": "text",
+    "text": "f",
+    "color": "#aa0000"
+   }
+  ]
+ }
+}

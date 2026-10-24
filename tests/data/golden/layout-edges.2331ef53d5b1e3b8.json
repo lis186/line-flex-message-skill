@@ -1,0 +1,126 @@
+{
+  "input": {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "text",
+              "text": "l"
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "text",
+              "text": "m"
+            },
+            {
+              "type": "separator",
+              "margin": "9px",
+              "color": "#123456"
+            },
+            {
+              "type": "text",
+              "text": "r"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "ignored?",
+          "contents": [
+            {
+              "type": "span",
+              "text": "s1"
+            },
+            {
+              "type": "span",
+              "text": "s2\ns3"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "text",
+              "text": "a"
+            },
+            {
+              "type": "text",
+              "text": "b",
+              "margin": "lg"
+            },
+            {
+              "type": "text",
+              "text": "c",
+              "margin": "2px"
+            },
+            {
+              "type": "text",
+              "text": "d"
+            }
+          ],
+          "spacing": "6px"
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "h"
+                }
+              ],
+              "height": "30px"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "w"
+                }
+              ],
+              "flex": 2
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "w2"
+                }
+              ],
+              "width": "50px",
+              "flex": 2
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": 200,
+  "html": "<!doctype html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1\"><meta name=\"format-detection\" content=\"telephone=no\"><link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.line-scdn.net/line_flexible_msg/188b38e2f32/css/sp/main.css?29880615\"><style type=\"text/css\">.fxC0 { border-color: #123456 !important; } .LyGi { width: 100%; max-width: 500px; min-width: 0;} .LyMe { width: 100%; max-width: 300px; min-width: 0;} .LyKi { width: 100%; max-width: 260px; min-width: 0;} .LyHe { width: 100%; max-width: 241px; min-width: 0;} .LyDe { width: 100%; max-width: 220px; min-width: 0;} .LyMi { width: 100%; max-width: 160px; min-width: 0;} .LyNa { width: 100%; max-width: 120px; min-width: 0;} </style></head><body style=\"margin: 0;\"><div class=\"LyMe\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Body\"><div class=\"MdBx vr\"><div class=\"MdBx hr\"><div class=\"MdTxt\"><p>l</p></div><div class=\"ExMgnLMd fl0 MdSep\"></div><div class=\"MdTxt\"><p>m</p></div><div class=\"fl0 MdSep fxC0\" style=\"margin-left:9px;\"></div><div class=\"MdTxt\"><p>r</p></div></div><div class=\"MdTxt\"><p><span class=\"MdSpn\">s1</span><span class=\"MdSpn\">s2\ns3</span></p></div><div class=\"MdBx hr\"><div class=\"MdTxt\"><p>a</p></div><div class=\"MdTxt ExMgnLLg\"><p>b</p></div><div class=\"MdTxt\" style=\"margin-left:2px;\"><p>c</p></div><div class=\"MdTxt\" style=\"margin-left:6px;\"><p>d</p></div></div><div class=\"MdBx hr\"><div class=\"MdBx vr\" style=\"height:30px;\"><div class=\"MdTxt\"><p>h</p></div></div><div class=\"MdBx vr fl2\"><div class=\"MdTxt\"><p>w</p></div></div></div><div class=\"MdBx vr\"><div class=\"MdBx vr fl2\" style=\"width:50px;\"><div class=\"MdTxt\"><p>w2</p></div></div></div></div></div></div></div></body></html>",
+  "capturedAt": "2026-10-24T10:15:44.648Z"
+}

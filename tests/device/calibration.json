@@ -1,0 +1,589 @@
+{
+ "type": "flex",
+ "altText": "Flex 實機校正卡",
+ "contents": {
+  "type": "carousel",
+  "contents": [
+   {
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "text",
+       "text": "C1 ruler / text sizes",
+       "weight": "bold",
+       "size": "sm",
+       "color": "#ffffff"
+      }
+     ],
+     "backgroundColor": "#333333",
+     "paddingAll": "md"
+    },
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [],
+       "width": "200px",
+       "height": "20px",
+       "backgroundColor": "#ff0000"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "xs 測試Abc123",
+         "size": "xs"
+        }
+       ],
+       "backgroundColor": "#ffd6d6"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "sm 測試Abc123",
+         "size": "sm"
+        }
+       ],
+       "backgroundColor": "#d6ffd6"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "md 測試Abc123",
+         "size": "md"
+        }
+       ],
+       "backgroundColor": "#d6e4ff"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "lg 測試Abc123",
+         "size": "lg"
+        }
+       ],
+       "backgroundColor": "#fff3c4"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "xl 測試Abc123",
+         "size": "xl"
+        }
+       ],
+       "backgroundColor": "#ffd6d6"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "xxl 測試Abc123",
+         "size": "xxl"
+        }
+       ],
+       "backgroundColor": "#d6ffd6"
+      }
+     ],
+     "spacing": "md",
+     "paddingAll": "lg"
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "text",
+       "text": "C2 maxLines 0/1/2/3",
+       "weight": "bold",
+       "size": "sm",
+       "color": "#ffffff"
+      }
+     ],
+     "backgroundColor": "#333333",
+     "paddingAll": "md"
+    },
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [],
+       "width": "200px",
+       "height": "20px",
+       "backgroundColor": "#ff0000"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "一二三四五六七八九十 The quick brown fox jumps over the lazy dog 甲乙丙丁戊己庚辛壬癸 0123456789 子丑寅卯辰巳午未申酉戌亥",
+         "wrap": true
+        }
+       ],
+       "backgroundColor": "#ffd6d6"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "一二三四五六七八九十 The quick brown fox jumps over the lazy dog 甲乙丙丁戊己庚辛壬癸 0123456789 子丑寅卯辰巳午未申酉戌亥",
+         "wrap": true,
+         "maxLines": 1
+        }
+       ],
+       "backgroundColor": "#d6ffd6"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "一二三四五六七八九十 The quick brown fox jumps over the lazy dog 甲乙丙丁戊己庚辛壬癸 0123456789 子丑寅卯辰巳午未申酉戌亥",
+         "wrap": true,
+         "maxLines": 2
+        }
+       ],
+       "backgroundColor": "#d6e4ff"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "一二三四五六七八九十 The quick brown fox jumps over the lazy dog 甲乙丙丁戊己庚辛壬癸 0123456789 子丑寅卯辰巳午未申酉戌亥",
+         "wrap": true,
+         "maxLines": 3
+        }
+       ],
+       "backgroundColor": "#fff3c4"
+      }
+     ],
+     "spacing": "md",
+     "paddingAll": "lg"
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "text",
+       "text": "C3 lineSpacing none/6/12/20px",
+       "weight": "bold",
+       "size": "sm",
+       "color": "#ffffff"
+      }
+     ],
+     "backgroundColor": "#333333",
+     "paddingAll": "md"
+    },
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [],
+       "width": "200px",
+       "height": "20px",
+       "backgroundColor": "#ff0000"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "一二三四五六七八九十 The quick brown fox jumps over the lazy dog 甲乙丙丁戊",
+         "wrap": true,
+         "size": "sm"
+        }
+       ],
+       "backgroundColor": "#ffd6d6"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "一二三四五六七八九十 The quick brown fox jumps over the lazy dog 甲乙丙丁戊",
+         "wrap": true,
+         "size": "sm",
+         "lineSpacing": "6px"
+        }
+       ],
+       "backgroundColor": "#d6ffd6"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "一二三四五六七八九十 The quick brown fox jumps over the lazy dog 甲乙丙丁戊",
+         "wrap": true,
+         "size": "sm",
+         "lineSpacing": "12px"
+        }
+       ],
+       "backgroundColor": "#d6e4ff"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "一二三四五六七八九十 The quick brown fox jumps over the lazy dog 甲乙丙丁戊",
+         "wrap": true,
+         "size": "sm",
+         "lineSpacing": "20px"
+        }
+       ],
+       "backgroundColor": "#fff3c4"
+      }
+     ],
+     "spacing": "md",
+     "paddingAll": "lg"
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "text",
+       "text": "C4 shrink-to-fit (box 150px)",
+       "weight": "bold",
+       "size": "sm",
+       "color": "#ffffff"
+      }
+     ],
+     "backgroundColor": "#333333",
+     "paddingAll": "md"
+    },
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [],
+       "width": "200px",
+       "height": "20px",
+       "backgroundColor": "#ff0000"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "短",
+         "adjustMode": "shrink-to-fit",
+         "size": "xl"
+        }
+       ],
+       "width": "150px",
+       "backgroundColor": "#ffd6d6"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "中等長度文字",
+         "adjustMode": "shrink-to-fit",
+         "size": "xl"
+        }
+       ],
+       "width": "150px",
+       "backgroundColor": "#d6ffd6"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "比較長的一段文字會縮小嗎",
+         "adjustMode": "shrink-to-fit",
+         "size": "xl"
+        }
+       ],
+       "width": "150px",
+       "backgroundColor": "#d6e4ff"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "非常非常非常非常長的一段文字一定要縮小才放得下",
+         "adjustMode": "shrink-to-fit",
+         "size": "xl"
+        }
+       ],
+       "width": "150px",
+       "backgroundColor": "#fff3c4"
+      },
+      {
+       "type": "button",
+       "style": "primary",
+       "adjustMode": "shrink-to-fit",
+       "action": {
+        "type": "uri",
+        "label": "非常非常長的按鈕文字要縮小",
+        "uri": "https://example.com"
+       }
+      }
+     ],
+     "spacing": "md",
+     "paddingAll": "lg"
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "text",
+       "text": "C5 scaling on/off",
+       "weight": "bold",
+       "size": "sm",
+       "color": "#ffffff"
+      }
+     ],
+     "backgroundColor": "#333333",
+     "paddingAll": "md"
+    },
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [],
+       "width": "200px",
+       "height": "20px",
+       "backgroundColor": "#ff0000"
+      },
+      {
+       "type": "box",
+       "layout": "horizontal",
+       "contents": [
+        {
+         "type": "box",
+         "layout": "vertical",
+         "contents": [
+          {
+           "type": "text",
+           "text": "off 測試Abc",
+           "size": "md"
+          }
+         ],
+         "backgroundColor": "#ffd6d6"
+        },
+        {
+         "type": "box",
+         "layout": "vertical",
+         "contents": [
+          {
+           "type": "text",
+           "text": "on 測試Abc",
+           "size": "md",
+           "scaling": true
+          }
+         ],
+         "backgroundColor": "#d6ffd6"
+        }
+       ],
+       "spacing": "sm"
+      },
+      {
+       "type": "box",
+       "layout": "baseline",
+       "contents": [
+        {
+         "type": "icon",
+         "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+         "size": "md"
+        },
+        {
+         "type": "text",
+         "text": "icon off",
+         "size": "sm"
+        },
+        {
+         "type": "icon",
+         "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+         "size": "md",
+         "scaling": true
+        },
+        {
+         "type": "text",
+         "text": "icon on",
+         "size": "sm"
+        }
+       ],
+       "spacing": "sm"
+      },
+      {
+       "type": "button",
+       "style": "secondary",
+       "action": {
+        "type": "uri",
+        "label": "button off",
+        "uri": "https://example.com"
+       }
+      },
+      {
+       "type": "button",
+       "style": "secondary",
+       "scaling": true,
+       "action": {
+        "type": "uri",
+        "label": "button on",
+        "uri": "https://example.com"
+       }
+      }
+     ],
+     "spacing": "md",
+     "paddingAll": "lg"
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "text",
+       "text": "C6 ellipsis / wrap breaking",
+       "weight": "bold",
+       "size": "sm",
+       "color": "#ffffff"
+      }
+     ],
+     "backgroundColor": "#333333",
+     "paddingAll": "md"
+    },
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "contents": [
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [],
+       "width": "200px",
+       "height": "20px",
+       "backgroundColor": "#ff0000"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "一二三四五六七八九十 The quick brown fox jumps over the lazy dog 甲乙丙丁戊己庚辛壬癸 0123456789 子丑寅卯辰巳午未申酉戌亥"
+        }
+       ],
+       "backgroundColor": "#ffd6d6"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "一二三四五六七八九十 The quick brown fox jumps over the lazy dog 甲乙丙丁戊己庚辛壬癸 0123456789 子丑寅卯辰巳午未申酉戌亥",
+         "wrap": true
+        }
+       ],
+       "backgroundColor": "#d6ffd6"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "supercalifragilisticexpialidocious_and_more_without_spaces",
+         "wrap": true
+        }
+       ],
+       "backgroundColor": "#d6e4ff"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [
+        {
+         "type": "text",
+         "text": "行尾換行測試\n第二行\n",
+         "wrap": true
+        }
+       ],
+       "backgroundColor": "#fff3c4"
+      }
+     ],
+     "spacing": "md",
+     "paddingAll": "lg"
+    }
+   }
+  ]
+ }
+}

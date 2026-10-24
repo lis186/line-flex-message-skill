@@ -1,0 +1,35 @@
+{
+ "type": "bubble",
+ "direction": "rtl",
+ "body": {
+  "type": "box",
+  "layout": "horizontal",
+  "contents": [
+   {
+    "type": "text",
+    "text": "a"
+   },
+   {
+    "type": "text",
+    "text": "b",
+    "margin": "md"
+   },
+   {
+    "type": "text",
+    "text": "c",
+    "margin": "9px"
+   },
+   {
+    "type": "text",
+    "text": "d",
+    "position": "absolute",
+    "offsetStart": "md",
+    "offsetEnd": "5px",
+    "offsetTop": "3px"
+   }
+  ],
+  "paddingStart": "md",
+  "paddingEnd": "7px",
+  "spacing": "sm"
+ }
+}

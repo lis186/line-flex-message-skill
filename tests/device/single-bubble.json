@@ -1,0 +1,96 @@
+{
+ "messages": [
+  {
+   "type": "flex",
+   "altText": "單張 bubble 寬度校正 mega",
+   "contents": {
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+     "type": "box",
+     "layout": "vertical",
+     "backgroundColor": "#333333",
+     "paddingAll": "md",
+     "contents": [
+      {
+       "type": "text",
+       "text": "W-mega single bubble width",
+       "weight": "bold",
+       "size": "sm",
+       "color": "#ffffff"
+      }
+     ]
+    },
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "spacing": "md",
+     "paddingAll": "none",
+     "contents": [
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [],
+       "width": "200px",
+       "height": "20px",
+       "backgroundColor": "#ff0000"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [],
+       "height": "20px",
+       "backgroundColor": "#0000ff"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "type": "flex",
+   "altText": "單張 bubble 寬度校正 giga",
+   "contents": {
+    "type": "bubble",
+    "size": "giga",
+    "header": {
+     "type": "box",
+     "layout": "vertical",
+     "backgroundColor": "#333333",
+     "paddingAll": "md",
+     "contents": [
+      {
+       "type": "text",
+       "text": "W-giga single bubble width",
+       "weight": "bold",
+       "size": "sm",
+       "color": "#ffffff"
+      }
+     ]
+    },
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "spacing": "md",
+     "paddingAll": "none",
+     "contents": [
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [],
+       "width": "200px",
+       "height": "20px",
+       "backgroundColor": "#ff0000"
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "contents": [],
+       "height": "20px",
+       "backgroundColor": "#0000ff"
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

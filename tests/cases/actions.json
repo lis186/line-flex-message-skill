@@ -1,0 +1,80 @@
+{
+ "type": "bubble",
+ "action": {
+  "type": "uri",
+  "label": "bubble",
+  "uri": "https://example.com"
+ },
+ "hero": {
+  "type": "image",
+  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+  "size": "full",
+  "aspectRatio": "2:1",
+  "action": {
+   "type": "uri",
+   "label": "hero",
+   "uri": "https://example.com"
+  }
+ },
+ "body": {
+  "type": "box",
+  "layout": "vertical",
+  "contents": [
+   {
+    "type": "text",
+    "text": "txt",
+    "action": {
+     "type": "uri",
+     "label": "text",
+     "uri": "https://example.com"
+    }
+   },
+   {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+     {
+      "type": "text",
+      "text": "boxed"
+     }
+    ],
+    "action": {
+     "type": "postback",
+     "label": "pb",
+     "data": "x=1"
+    }
+   },
+   {
+    "type": "image",
+    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+    "action": {
+     "type": "message",
+     "label": "msg",
+     "text": "hi"
+    }
+   },
+   {
+    "type": "button",
+    "action": {
+     "type": "uri",
+     "label": "L",
+     "uri": "https://example.com"
+    }
+   },
+   {
+    "type": "button",
+    "style": "secondary",
+    "action": {
+     "type": "postback",
+     "label": "pb2",
+     "data": "y"
+    }
+   }
+  ],
+  "action": {
+   "type": "uri",
+   "label": "body",
+   "uri": "https://example.com"
+  }
+ }
+}

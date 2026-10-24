@@ -1,0 +1,96 @@
+{
+  "type": "flex",
+  "altText": "本週家具選品：白色扶手椅 NT$1,490、金屬檯燈 NT$590（暫時缺貨）",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            { "type": "text", "text": "北歐白色扶手椅", "wrap": true, "weight": "bold", "size": "xl" },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                { "type": "text", "text": "NT$1,490", "wrap": true, "weight": "bold", "size": "xl", "flex": 0 },
+                { "type": "text", "text": "含運", "wrap": true, "weight": "bold", "size": "sm", "flex": 0, "margin": "sm" }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            { "type": "button", "style": "primary", "color": "#00c300", "action": { "type": "uri", "label": "加入購物車", "uri": "https://example.com/cart/add?item=chair" } },
+            { "type": "button", "action": { "type": "uri", "label": "加入收藏", "uri": "https://example.com/wishlist/add?item=chair" } }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_carousel.png",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            { "type": "text", "text": "工業風金屬檯燈", "wrap": true, "weight": "bold", "size": "xl" },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                { "type": "text", "text": "NT$590", "wrap": true, "weight": "bold", "size": "xl", "flex": 0 },
+                { "type": "text", "text": "含運", "wrap": true, "weight": "bold", "size": "sm", "flex": 0, "margin": "sm" }
+              ]
+            },
+            { "type": "text", "text": "暫時缺貨", "wrap": true, "size": "xxs", "margin": "md", "color": "#ff5551", "flex": 0 }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            { "type": "button", "style": "primary", "color": "#aaaaaa", "action": { "type": "uri", "label": "加入購物車", "uri": "https://example.com/cart/add?item=lamp" } },
+            { "type": "button", "action": { "type": "uri", "label": "加入收藏", "uri": "https://example.com/wishlist/add?item=lamp" } }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "flex": 1,
+              "gravity": "center",
+              "action": { "type": "uri", "label": "查看更多", "uri": "https://example.com/products" }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

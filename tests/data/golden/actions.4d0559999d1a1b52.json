@@ -1,0 +1,85 @@
+{
+  "input": {
+    "type": "bubble",
+    "action": {
+      "type": "uri",
+      "label": "bubble",
+      "uri": "https://example.com"
+    },
+    "hero": {
+      "type": "image",
+      "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+      "size": "full",
+      "aspectRatio": "2:1",
+      "action": {
+        "type": "uri",
+        "label": "hero",
+        "uri": "https://example.com"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "txt",
+          "action": {
+            "type": "uri",
+            "label": "text",
+            "uri": "https://example.com"
+          }
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "boxed"
+            }
+          ],
+          "action": {
+            "type": "postback",
+            "label": "pb",
+            "data": "x=1"
+          }
+        },
+        {
+          "type": "image",
+          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+          "action": {
+            "type": "message",
+            "label": "msg",
+            "text": "hi"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "L",
+            "uri": "https://example.com"
+          }
+        },
+        {
+          "type": "button",
+          "style": "secondary",
+          "action": {
+            "type": "postback",
+            "label": "pb2",
+            "data": "y"
+          }
+        }
+      ],
+      "action": {
+        "type": "uri",
+        "label": "body",
+        "uri": "https://example.com"
+      }
+    }
+  },
+  "status": 200,
+  "html": "<!doctype html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1\"><meta name=\"format-detection\" content=\"telephone=no\"><link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.line-scdn.net/line_flexible_msg/188b38e2f32/css/sp/main.css?29880615\"><style type=\"text/css\">.LyGi { width: 100%; max-width: 500px; min-width: 0;} .LyMe { width: 100%; max-width: 300px; min-width: 0;} .LyKi { width: 100%; max-width: 260px; min-width: 0;} .LyHe { width: 100%; max-width: 241px; min-width: 0;} .LyDe { width: 100%; max-width: 220px; min-width: 0;} .LyMi { width: 100%; max-width: 160px; min-width: 0;} .LyNa { width: 100%; max-width: 120px; min-width: 0;} </style></head><body style=\"margin: 0;\"><div class=\"LyMe\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Hero\"><div class=\"MdImg ExFull ExFit\"><div><a style=\"padding-bottom:50%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div></div><div class=\"t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>txt</p></div><div class=\"MdBx vr\"><div class=\"MdTxt\"><p>boxed</p></div></div><div class=\"MdImg ExMd ExFit\"><div><a style=\"padding-bottom:100%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div><div class=\"ExBtnL MdBtn\"><a><div>L</div></a></div><div class=\"ExBtn2 MdBtn\"><a><div>pb2</div></a></div></div></div></div></div></body></html>",
+  "capturedAt": "2026-10-24T10:15:32.851Z"
+}

@@ -1,0 +1,40 @@
+{
+  "input": {
+    "type": "bubble",
+    "direction": "rtl",
+    "body": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "text",
+          "text": "a"
+        },
+        {
+          "type": "text",
+          "text": "b",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "text": "c",
+          "margin": "9px"
+        },
+        {
+          "type": "text",
+          "text": "d",
+          "position": "absolute",
+          "offsetStart": "md",
+          "offsetEnd": "5px",
+          "offsetTop": "3px"
+        }
+      ],
+      "paddingStart": "md",
+      "paddingEnd": "7px",
+      "spacing": "sm"
+    }
+  },
+  "status": 200,
+  "html": "<!doctype html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1\"><meta name=\"format-detection\" content=\"telephone=no\"><link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.line-scdn.net/line_flexible_msg/188b38e2f32/css/sp/main.css?29880600\"><style type=\"text/css\">.LyGi { width: 100%; max-width: 500px; min-width: 0;} .LyMe { width: 100%; max-width: 300px; min-width: 0;} .LyKi { width: 100%; max-width: 260px; min-width: 0;} .LyHe { width: 100%; max-width: 241px; min-width: 0;} .LyDe { width: 100%; max-width: 220px; min-width: 0;} .LyMi { width: 100%; max-width: 160px; min-width: 0;} .LyNa { width: 100%; max-width: 120px; min-width: 0;} </style></head><body style=\"margin: 0;\"><div class=\"LyMe\"><div class=\"T1 fxRTL\" dir=\"rtl\"><div class=\"t1Body\"><div class=\"spcSm MdBx hr ExPadRMd\" style=\"padding-left:7px;\"><div class=\"MdTxt\"><p>a</p></div><div class=\"MdTxt ExMgnRMd\"><p>b</p></div><div class=\"MdTxt\" style=\"margin-right:9px;\"><p>c</p></div><div class=\"MdTxt ExRMd ExAbs\" style=\"top:3px; left:5px;\"><p>d</p></div></div></div></div></div></body></html>",
+  "capturedAt": "2026-10-24T10:00:31.329Z"
+}

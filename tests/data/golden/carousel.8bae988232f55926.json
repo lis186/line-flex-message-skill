@@ -1,0 +1,64 @@
+{
+  "input": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "micro",
+        "styles": {
+          "header": {
+            "separator": true,
+            "separatorColor": "#444444"
+          }
+        },
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "h",
+              "color": "#010101"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "b",
+              "color": "#020202"
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+          "size": "full",
+          "aspectRatio": "2:1",
+          "aspectMode": "cover"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "b",
+              "color": "#030303"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "status": 200,
+  "html": "<!doctype html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1\"><meta name=\"format-detection\" content=\"telephone=no\"><link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.line-scdn.net/line_flexible_msg/188b38e2f32/css/sp/main.css?29880600\"><style type=\"text/css\">.fxC2 { color: #020202 !important; } .fxC3 { color: #030303 !important; } .fxC1 { color: #010101 !important; } .fxC0 { border-color: #444444 !important; } </style></head><body><div class=\"LySlider\"><div class=\"lyInner\"><div class=\"lyItem LyMi\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Header\"><div class=\"MdBx vr\"><div class=\"fxC1 MdTxt\"><p>h</p></div></div></div><div class=\"t1Body\"><div class=\"MdBx vr\"><div class=\"fxC2 MdTxt\"><p>b</p></div></div></div></div></div><div class=\"lyItem LyMi\"><div class=\"T1 fxLTR\" dir=\"ltr\"><div class=\"t1Hero\"><div class=\"ExCover MdImg ExFull\"><div><a style=\"padding-bottom:50%;\"><span style=\"background-image:url('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');\"></span></a></div></div></div><div class=\"t1Body\"><div class=\"MdBx vr\"><div class=\"MdTxt fxC3\"><p>b</p></div></div></div></div></div></div></div></body></html>",
+  "capturedAt": "2026-10-24T10:00:21.941Z"
+}

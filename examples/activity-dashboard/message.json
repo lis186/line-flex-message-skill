@@ -1,0 +1,512 @@
+{
+  "type": "flex",
+  "altText": "本週步行報告：總距離 61.4 km，達標 3 天",
+  "contents": {
+    "type": "bubble",
+    "size": "giga",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "paddingAll": "14px",
+      "background": {
+        "type": "linearGradient",
+        "angle": "125deg",
+        "startColor": "#6366F1",
+        "endColor": "#3730A3"
+      },
+      "contents": [
+        {
+          "type": "text",
+          "text": "WEEKLY ACTIVITY",
+          "size": "xxs",
+          "weight": "bold",
+          "color": "#E0E7FF"
+        },
+        {
+          "type": "text",
+          "text": "🏃 本週步行報告",
+          "size": "lg",
+          "weight": "bold",
+          "color": "#FFFFFF",
+          "margin": "sm"
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "spacing": "sm",
+          "margin": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "paddingTop": "3px",
+              "paddingBottom": "3px",
+              "paddingStart": "8px",
+              "paddingEnd": "8px",
+              "cornerRadius": "10px",
+              "backgroundColor": "#EEF2FF",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "10/18–10/24",
+                  "size": "xxs",
+                  "weight": "bold",
+                  "color": "#4338CA"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "paddingTop": "3px",
+              "paddingBottom": "3px",
+              "paddingStart": "8px",
+              "paddingEnd": "8px",
+              "cornerRadius": "10px",
+              "backgroundColor": "#EEF2FF",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "目標 8 公里 / 日",
+                  "size": "xxs",
+                  "weight": "bold",
+                  "color": "#111111"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "paddingAll": "14px",
+      "spacing": "md",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "flex": 1,
+              "paddingAll": "12px",
+              "cornerRadius": "12px",
+              "backgroundColor": "#F5F5F5",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "本週總距離",
+                  "size": "xxs",
+                  "color": "#4F46E5"
+                },
+                {
+                  "type": "text",
+                  "text": "61.4 km",
+                  "size": "lg",
+                  "weight": "bold",
+                  "color": "#111111",
+                  "margin": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "比上週 +12%",
+                  "size": "xxs",
+                  "color": "#4338CA",
+                  "margin": "xs"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "flex": 1,
+              "paddingAll": "12px",
+              "cornerRadius": "12px",
+              "backgroundColor": "#EEF2FF",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "達標天數",
+                  "size": "xxs",
+                  "color": "#4338CA"
+                },
+                {
+                  "type": "text",
+                  "text": "3 / 7 天",
+                  "size": "lg",
+                  "weight": "bold",
+                  "color": "#111111",
+                  "margin": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "比上週多 1 天",
+                  "size": "xxs",
+                  "color": "#4F46E5",
+                  "margin": "xs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "paddingAll": "14px",
+          "cornerRadius": "14px",
+          "backgroundColor": "#FFFFFF",
+          "borderWidth": "1px",
+          "borderColor": "#DFDFDF",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "justifyContent": "space-between",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "每日距離（km）",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#111111",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "週一至週日",
+                  "size": "xxs",
+                  "color": "#777777",
+                  "flex": 0,
+                  "gravity": "center"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "alignItems": "flex-end",
+              "height": "124px",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 1,
+                  "alignItems": "center",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "6.2",
+                      "size": "xxs",
+                      "color": "#555555"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "width": "14px",
+                      "height": "41px",
+                      "cornerRadius": "7px",
+                      "margin": "xs",
+                      "contents": [],
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "0deg",
+                        "startColor": "#A5B4FC",
+                        "endColor": "#4F46E5"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "一",
+                      "size": "xxs",
+                      "margin": "xs",
+                      "color": "#949494"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 1,
+                  "alignItems": "center",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "7.4",
+                      "size": "xxs",
+                      "color": "#555555"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "width": "14px",
+                      "height": "49px",
+                      "cornerRadius": "7px",
+                      "margin": "xs",
+                      "contents": [],
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "0deg",
+                        "startColor": "#A5B4FC",
+                        "endColor": "#4F46E5"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "二",
+                      "size": "xxs",
+                      "margin": "xs",
+                      "color": "#949494"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 1,
+                  "alignItems": "center",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "9.8",
+                      "size": "xxs",
+                      "color": "#555555"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "width": "14px",
+                      "height": "65px",
+                      "cornerRadius": "7px",
+                      "margin": "xs",
+                      "contents": [],
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "0deg",
+                        "startColor": "#A5B4FC",
+                        "endColor": "#4F46E5"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "三",
+                      "size": "xxs",
+                      "margin": "xs",
+                      "color": "#949494"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 1,
+                  "alignItems": "center",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "8.1",
+                      "size": "xxs",
+                      "color": "#555555"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "width": "14px",
+                      "height": "54px",
+                      "cornerRadius": "7px",
+                      "margin": "xs",
+                      "contents": [],
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "0deg",
+                        "startColor": "#A5B4FC",
+                        "endColor": "#4F46E5"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "四",
+                      "size": "xxs",
+                      "margin": "xs",
+                      "color": "#949494"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 1,
+                  "alignItems": "center",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "12.6",
+                      "size": "xxs",
+                      "color": "#C2410C",
+                      "weight": "bold"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "width": "14px",
+                      "height": "84px",
+                      "cornerRadius": "7px",
+                      "margin": "xs",
+                      "contents": [],
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "0deg",
+                        "startColor": "#FDBA74",
+                        "endColor": "#EA580C"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "五",
+                      "size": "xxs",
+                      "margin": "xs",
+                      "color": "#EA580C",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 1,
+                  "alignItems": "center",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "10.4",
+                      "size": "xxs",
+                      "color": "#555555"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "width": "14px",
+                      "height": "69px",
+                      "cornerRadius": "7px",
+                      "margin": "xs",
+                      "contents": [],
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "0deg",
+                        "startColor": "#A5B4FC",
+                        "endColor": "#4F46E5"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "六",
+                      "size": "xxs",
+                      "margin": "xs",
+                      "color": "#949494"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 1,
+                  "alignItems": "center",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "6.9",
+                      "size": "xxs",
+                      "color": "#555555"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "width": "14px",
+                      "height": "46px",
+                      "cornerRadius": "7px",
+                      "margin": "xs",
+                      "contents": [],
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "0deg",
+                        "startColor": "#A5B4FC",
+                        "endColor": "#4F46E5"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "日",
+                      "size": "xxs",
+                      "margin": "xs",
+                      "color": "#949494"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "justifyContent": "space-between",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "最高：週五 12.6km",
+                  "size": "xs",
+                  "color": "#EA580C",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "平均 8.8km",
+                  "size": "xs",
+                  "color": "#555555",
+                  "flex": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "secondary",
+          "action": {
+            "type": "message",
+            "label": "每日明細",
+            "text": "查看每日步行明細"
+          }
+        },
+        {
+          "type": "button",
+          "style": "primary",
+          "color": "#4F46E5",
+          "action": {
+            "type": "message",
+            "label": "調整目標",
+            "text": "我想調整每日目標"
+          }
+        }
+      ]
+    },
+    "styles": {
+      "body": {
+        "backgroundColor": "#FCFCFC"
+      },
+      "footer": {
+        "separator": true
+      }
+    }
+  }
+}

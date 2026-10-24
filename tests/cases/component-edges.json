@@ -1,0 +1,83 @@
+{
+ "type": "bubble",
+ "hero": {
+  "type": "video",
+  "url": "https://example.com/v.mp4",
+  "previewUrl": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+  "aspectRatio": "16:9",
+  "altContent": {
+   "type": "image",
+   "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+   "size": "full",
+   "aspectRatio": "16:9"
+  }
+ },
+ "body": {
+  "type": "box",
+  "layout": "vertical",
+  "contents": [
+   {
+    "type": "button",
+    "action": {
+     "type": "uri",
+     "label": "L",
+     "uri": "https://example.com"
+    },
+    "style": "primary",
+    "height": "sm",
+    "gravity": "center"
+   },
+   {
+    "type": "button",
+    "action": {
+     "type": "uri",
+     "label": "A long label to overflow the button now",
+     "uri": "https://example.com"
+    },
+    "style": "link"
+   },
+   {
+    "type": "box",
+    "layout": "baseline",
+    "contents": [
+     {
+      "type": "text",
+      "text": "x"
+     },
+     {
+      "type": "icon",
+      "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+      "margin": "7px",
+      "offsetBottom": "2px",
+      "offsetStart": "3px",
+      "offsetEnd": "md",
+      "size": "12.5px"
+     }
+    ]
+   },
+   {
+    "type": "image",
+    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+    "size": "full",
+    "align": "start",
+    "aspectRatio": "1:3"
+   },
+   {
+    "type": "image",
+    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+    "size": "sm",
+    "aspectRatio": "3:1",
+    "aspectMode": "cover",
+    "align": "end"
+   },
+   {
+    "type": "text",
+    "text": "dec",
+    "size": "12.5px",
+    "margin": "2.5px",
+    "offsetBottom": "10%",
+    "offsetEnd": "5%"
+   }
+  ]
+ }
+}

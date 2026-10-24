@@ -1,0 +1,222 @@
+{
+ "device": "ios",
+ "width": 430,
+ "note": "iPhone 1290x2796 @3x, LINE iOS, default text sizes; measured with tools/measure-device.py",
+ "cards": {
+  "C1": {
+   "boxes": [
+    {
+     "height": 16.0,
+     "lines": 1
+    },
+    {
+     "height": 17.0,
+     "lines": 1
+    },
+    {
+     "height": 19.7,
+     "lines": 1
+    },
+    {
+     "height": 23.0,
+     "lines": 1
+    },
+    {
+     "height": 26.3,
+     "lines": 1
+    },
+    {
+     "height": 35.0,
+     "lines": 1
+    }
+   ]
+  },
+  "C2": {
+   "boxes": [
+    {
+     "height": 77.0,
+     "lines": 4
+    },
+    {
+     "height": 19.7,
+     "lines": 1
+    },
+    {
+     "height": 38.3,
+     "lines": 2
+    },
+    {
+     "height": 57.7,
+     "lines": 3
+    }
+   ]
+  },
+  "C3": {
+   "boxes": [
+    {
+     "height": 34.0,
+     "lines": 2
+    },
+    {
+     "height": 40.0,
+     "lines": 2
+    },
+    {
+     "height": 46.0,
+     "lines": 2
+    },
+    {
+     "height": 54.0,
+     "lines": 2
+    }
+   ]
+  },
+  "C4": {
+   "boxes": [
+    {
+     "height": 26.7,
+     "lines": 1
+    },
+    {
+     "height": 26.3,
+     "lines": 1
+    },
+    {
+     "height": 26.7,
+     "lines": 1
+    },
+    {
+     "height": 26.3,
+     "lines": 1
+    }
+   ]
+  },
+  "C6": {
+   "boxes": [
+    {
+     "height": 19.7,
+     "lines": 1
+    },
+    {
+     "height": 77.0,
+     "lines": 4
+    },
+    {
+     "height": 38.3,
+     "lines": 2
+    },
+    {
+     "height": 57.7,
+     "lines": 2
+    }
+   ]
+  }
+ },
+ "scaling": {
+  "card": "C5",
+  "textSizes": {
+   "xs": {
+    "items": {
+     "off box": {
+      "height": 19.7,
+      "inkHeight": 14.3,
+      "inkWidth": 85.0
+     },
+     "on box": {
+      "height": 19.7,
+      "inkHeight": 11.7,
+      "inkWidth": 68.7
+     },
+     "icon off": {
+      "height": 14.7,
+      "inkHeight": 14.7,
+      "inkWidth": 0.0
+     },
+     "icon on": {
+      "height": 11.7,
+      "inkHeight": 11.7,
+      "inkWidth": 0.0
+     },
+     "button off": {
+      "height": 52.0,
+      "inkHeight": 12.3,
+      "inkWidth": 70.3
+     },
+     "button on": {
+      "height": 52.0,
+      "inkHeight": 9.7,
+      "inkWidth": 56.3
+     }
+    }
+   },
+   "l": {
+    "items": {
+     "off box": {
+      "height": 19.7,
+      "inkHeight": 14.3,
+      "inkWidth": 85.0
+     },
+     "on box": {
+      "height": 19.7,
+      "inkHeight": 14.3,
+      "inkWidth": 83.0
+     },
+     "icon off": {
+      "height": 14.7,
+      "inkHeight": 14.7,
+      "inkWidth": 0.0
+     },
+     "icon on": {
+      "height": 14.7,
+      "inkHeight": 14.7,
+      "inkWidth": 0.0
+     },
+     "button off": {
+      "height": 52.0,
+      "inkHeight": 12.3,
+      "inkWidth": 70.3
+     },
+     "button on": {
+      "height": 52.0,
+      "inkHeight": 12.0,
+      "inkWidth": 67.7
+     }
+    }
+   },
+   "xxxl": {
+    "items": {
+     "off box": {
+      "height": 26.7,
+      "inkHeight": 14.3,
+      "inkWidth": 85.0
+     },
+     "on box": {
+      "height": 26.7,
+      "inkHeight": 19.0,
+      "inkWidth": 109.7
+     },
+     "icon off": {
+      "height": 14.7,
+      "inkHeight": 14.7,
+      "inkWidth": 0.0
+     },
+     "icon on": {
+      "height": 20.0,
+      "inkHeight": 20.0,
+      "inkWidth": 0.0
+     },
+     "button off": {
+      "height": 52.0,
+      "inkHeight": 12.3,
+      "inkWidth": 70.3
+     },
+     "button on": {
+      "height": 52.0,
+      "inkHeight": 16.3,
+      "inkWidth": 88.0
+     }
+    }
+   }
+  }
+ }
+}
