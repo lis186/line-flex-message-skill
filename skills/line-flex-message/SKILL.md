@@ -5,7 +5,7 @@ license: MIT
 compatibility: Needs Node.js 22+; preview needs Chrome or Chromium; validate.sh needs bash, curl, jq, node and a LINE channel access token. Network access to api.line.me and static.line-scdn.net.
 metadata:
   author: lis186
-  version: "1.0.1"
+  version: "1.0.2"
   repository: https://github.com/lis186/line-flex-message-skill
 ---
 
