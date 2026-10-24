@@ -14,7 +14,7 @@ npx skills add lis186/line-flex-message-skill
 
 Or copy `skills/line-flex-message/` into your agent's skills directory (for example `~/.claude/skills/line-flex-message` for Claude Code). The skill follows the open Agent Skills format, so any agent that reads `SKILL.md` can use it.
 
-Requirements: Node.js 22+, Chrome or Chromium (preview), bash, curl and jq (validation).
+Requirements: Node.js 22+ (preview and validation), Chrome or Chromium (preview), bash, curl and jq (validation).
 
 ## Validation token
 
